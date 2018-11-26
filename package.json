@@ -1,0 +1,12 @@
+{
+    "name": "css-masterclass",
+    "version": "1.0.0",
+    "description": "CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)",
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/parkseyeonn/css_practice.git"
+    },
+    "scripts": {
+      "start": "parcel index.html"
+    }
+  }
