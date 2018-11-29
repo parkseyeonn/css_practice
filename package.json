@@ -1,12 +1,22 @@
 {
-    "name": "css-masterclass",
-    "version": "1.0.0",
-    "description": "CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)",
-    "repository": {
-      "type": "git",
-      "url": "git+https://github.com/parkseyeonn/css_practice.git"
-    },
-    "scripts": {
-      "start": "parcel index.html"
+  "name": "css-masterclass",
+  "version": "1.0.0",
+  "description": "CSS Masterclass course (Flexbox, Grid, PostCSS, CSSNext)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parkseyeonn/css_practice.git"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "dependencies": {
+    "postcss-preset-env": "^6.4.0"
+  },
+  "postcss" : {
+    "plugins":{
+      "post-preset-env":{
+        "stage": 0
+      }
     }
   }
+}
